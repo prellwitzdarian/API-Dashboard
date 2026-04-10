@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Dashboard Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="main-title">JavaScript API Dashboard</h1>
+    <div class="grid-container">
+      <section class="grid-item" id="dog-api">
+        <h2>🐶 Random Dog</h2>
+        <div class="output" id="dog-output"></div>
+        <div class="output" id="dog-fact-output"></div>
+        <div class="actions">
+          <button id="dog-button">Get Dog</button>
+          <button id="dog-facts-button">Get a Dog Fact!</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="cat-api">
+        <h2>🐱 Random Cat</h2>
+        <div class="output" id="cat-output"></div>
+        <div class="output" id="cat-fact-output"></div>
+        <div class="actions">
+          <button id="cat-button">Get Cat</button>
+          <button id="cat-facts-button">Get a Cat Fact!</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="weather-api">
+        <h2>☀️ Weather Info</h2>
+        <div class="output" id="weather-output"></div>
+        <div class="actions">
+          <input
+            id="weather-city-input"
+            type="text"
+            placeholder="Enter city name"
+          />
+          <button id="weather-button">Get Weather</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="currency-api">
+        <h2>💱 Currency Rates</h2>
+        <div class="output" id="currency-output"></div>
+        <div class="actions">
+          <button id="currency-button">Get Rates</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="movies-api">
+        <h2>🎮 Trending Movies</h2>
+        <div class="output" id="movies-output"></div>
+        <div class="actions">
+          <button id="movies-button">Get Movies</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="github-api">
+        <h2>🧑‍💻 GitHub User</h2>
+        <div class="output" id="github-output"></div>
+        <div class="actions">
+          <input
+            id="github-user-input"
+            type="text"
+            placeholder="Enter GitHub username"
+          />
+          <button id="github-button">Get User</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="joke-api">
+        <h2>🤣 Random Joke</h2>
+        <div class="output" id="joke-output"></div>
+        <div class="actions">
+          <button id="joke-button">Get Joke</button>
+        </div>
+      </section>
+
+      <section class="grid-item" id="pokemon-api">
+        <h2>📚 Pokemon</h2>
+        <div class="output" id="pokemon-output"></div>
+        <div class="actions">
+          <button id="pokemon-button">Catch One!</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
